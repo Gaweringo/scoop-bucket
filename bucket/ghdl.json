@@ -9,7 +9,6 @@
             "hash": "034e8e98481bf86ce06c682630c9fbab26542fb96601cac7472f4aa877c44334"
         },
     },
-    "extract_dir": "GHDL",
     "bin": [
         "bin\\ghdl.exe",
         "bin\\ghwdump.exe"
