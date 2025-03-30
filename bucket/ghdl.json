@@ -1,17 +1,13 @@
 {
-    "version": "4.1.0",
+    "version": "5.0.1",
     "description": "Free and open-source analyzer, compiler, simulator and (experimental) synthesizer for VHDL",
     "homepage": "https://github.com/ghdl/ghdl/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ghdl/ghdl/releases/download/v4.1.0/ghdl-UCRT64.zip",
-            "hash": "c404ac59d598b9c067dd54e0e753d2d363c30cf93f929fcf82575b9620a23aef"
+            "url": "https://github.com/ghdl/ghdl/releases/download/v5.0.1/ghdl-mcode-5.0.1-mingw64.zip",
+            "hash": "034e8e98481bf86ce06c682630c9fbab26542fb96601cac7472f4aa877c44334"
         },
-        "32bit": {
-            "url": "https://github.com/ghdl/ghdl/releases/download/v4.1.0/ghdl-MINGW32.zip",
-            "hash": "66288fc2f6dfe6510357406ec7aed3a67b9ae1deeaf2fe488c8e99e5dae768cf"
-        }
     },
     "extract_dir": "GHDL",
     "bin": [
@@ -22,11 +18,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ghdl/ghdl/releases/download/v$version/ghdl-UCRT64.zip"
+                "url": "https://github.com/ghdl/ghdl/releases/download/v$version/ghdl-mcode-$version-mingw64.zip"
             },
-            "32bit": {
-                "url": "https://github.com/ghdl/ghdl/releases/download/v$version/ghdl-MINGW32.zip"
-            }
         }
     }
 }
