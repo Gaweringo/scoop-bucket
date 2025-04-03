@@ -24,6 +24,7 @@ scoop install gaweringo/<manifestname>
 - [raddbg](./bucket/raddbg.json)
 - [tinymist](./bucket/tinymist.json)
 - [uvconverter](./bucket/uvconverter.json)
+- [vhdl_ls](./bucket/vhdl_ls.json)
 
 ## How do I contribute new manifests?
 
