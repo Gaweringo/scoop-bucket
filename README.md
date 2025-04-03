@@ -18,6 +18,13 @@ scoop bucket add gaweringo https://github.com/gaweringo/scoop-bucket
 scoop install gaweringo/<manifestname>
 ```
 
+### Available Manifests
+- [ghdl](./bucket/ghdl.json)
+- [nvc](./bucket/nvc.json)
+- [raddbg](./bucket/raddbg.json)
+- [tinymist](./bucket/tinymist.json)
+- [uvconverter](./bucket/uvconverter.json)
+
 ## How do I contribute new manifests?
 
 To make a new manifest contribution, please read the [Contributing
