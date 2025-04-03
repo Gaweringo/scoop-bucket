@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/ghdl/ghdl/releases/download/v5.0.1/ghdl-mcode-5.0.1-mingw64.zip",
             "hash": "034e8e98481bf86ce06c682630c9fbab26542fb96601cac7472f4aa877c44334"
-        },
+        }
     },
     "bin": [
         "bin\\ghdl.exe",
@@ -18,7 +18,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/ghdl/ghdl/releases/download/v$version/ghdl-mcode-$version-mingw64.zip"
-            },
+            }
         }
     }
 }

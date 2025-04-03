@@ -10,8 +10,19 @@
         }
     },
     "bin": [
-        ["uvConvertor-cli.exe", "uvConvertor-cli"],
-        ["uvConvertor-cli.exe", "uvConvertor"],
+        [
+            "uvConvertor-cli.exe",
+            "uvConvertor-cli"
+        ],
+        [
+            "uvConvertor-cli.exe",
+            "uvConvertor"
+        ]
     ],
-    "checkver": "github"
+    "checkver": "github",
+    "autoupdate": {
+        "64bit": {
+            "url": "https://github.com/vankubo/uvConvertor/releases/download/v$version/uvConvertor-CLI.exe"
+        }
+    }
 }
