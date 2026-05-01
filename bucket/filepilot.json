@@ -1,12 +1,12 @@
 {
-    "version": "0.6.8",
+    "version": "0.7.0",
     "description": "Next-gen file explorer",
     "homepage": "https://filepilot.tech/",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://filepilot.nyc3.cdn.digitaloceanspaces.com/2026-01-12-v0.6.8/FPilot.exe",
-            "hash": "13399b761f37157df0cb4f16ae55c89a69e47d96cb491e57e819432e134382b8"
+            "url": "https://filepilot.nyc3.cdn.digitaloceanspaces.com/2026-02-10-v0.7.0/FPilot.exe",
+            "hash": "07d106ca23adab9115af3d529b6fc4bb27dd831e0923103b655707e76326363e"
         }
     },
     "bin": "FPilot.exe",
