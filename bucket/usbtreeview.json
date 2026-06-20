@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.uwe-sieber.de/files/UsbTreeView_x64.zip",
-            "hash": "30939ed9e03926630d11093b6c05e01422166a8a1055ebe77c100c9bcf246cf2"
+            "hash": "2e2e44eeed022670043967820fbea91a8f13eca6f5ba4f49b4394f5a79b91261"
         }
     },
     "bin": "UsbTreeView.exe",
