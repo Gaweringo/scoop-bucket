@@ -1,0 +1,15 @@
+{
+    "version": "2026_03_26",
+    "description": "One zig to rule them all.",
+    "homepage": "https://github.com/marler8997/anyzig",
+    "license": "MIT",
+    "url": "https://github.com/marler8997/anyzig/releases/download/v2026_03_26/anyzig-x86_64-windows.zip",
+    "hash": "c0a87ae4b5bb02d035185747ffe5247b3cfae0d172ffed9d4f60ba86c962781c",
+    "checkver": {
+        "regex": "/tag/v(\\w+)"
+    },
+    "bin": "zig.exe",
+    "autoupdate": {
+        "url": "https://github.com/marler8997/anyzig/releases/download/v$version/anyzig-x86_64-windows.zip"
+    }
+}
