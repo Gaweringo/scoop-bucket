@@ -11,5 +11,11 @@
     "bin": "zig.exe",
     "autoupdate": {
         "url": "https://github.com/marler8997/anyzig/releases/download/v$version/anyzig-x86_64-windows.zip"
-    }
+    },
+    "notes": [
+        "anyzig installs as zig.exe, which means it will conflict / not work,",
+        "if zig is already available on the path.",
+        "Please uninstall zig or any other zig version manager,",
+        "so that running zig does not run anything before installing this program."
+    ]
 }
