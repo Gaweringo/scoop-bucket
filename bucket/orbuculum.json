@@ -10,16 +10,16 @@
         }
     },
     "bin": [
+        "bin/dwarfdump.exe",
         "bin/orbcat.exe",
-        "orbcat.exe",
-        "orbdump.exe",
-        "orblcd.exe",
-        "orbprofile.exe",
-        "orbstat.exe",
-        "orbtop.exe",
-        "orbtrace.exe",
-        "orbuculum.exe",
-        "orbzmq.exe"
+        "bin/orbdump.exe",
+        "bin/orblcd.exe",
+        "bin/orbprofile.exe",
+        "bin/orbstat.exe",
+        "bin/orbtop.exe",
+        "bin/orbtrace.exe",
+        "bin/orbuculum.exe",
+        "bin/orbzmq.exe"
     ],
     "checkver": {
         "script": [
